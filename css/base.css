@@ -237,9 +237,125 @@ padding-top: 2%;
 	.frame a {
 		pointer-events: auto;
 	}
-	.content {
-		height: 100vh;
-		padding: 0 0 10rem 0;
-		justify-content: flex-end;
-	}
+
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+.content__title{
+	/* height: 450%; */
+	position: relative;
+	left: 20%;
+	top: 80%;
+	font-size: 200%;
+	/* right: auto; */
+}
+.button{
+	top:90%;
+	width: 100%;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+.content__title{
+	position: relative;
+	    left: 2%;
+	    top: 35%;
+	    font-size: 500%;
+}
+.button{
+	position: relative;
+	top:1600%;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+.content__title{
+	position: relative;
+	left: 20%;
+	top: 80%;
+	font-size: 200%;
+}
+.button{
+	position: relative;
+	top:90%;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+.content__title{
+	position: relative;
+	left: 0%;
+	top: 80%;
+	font-size: 200%;
+}
+.button{
+	position: relative;
+	top:90%;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+.content__title{
+	position: relative;
+	left: 2%;
+	top: 50%;
+	font-size: 500%;;
+}
+.button{
+	position: relative;
+	top:1300%;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+.content__title{
+	position: relative;
+	left: 20%;
+	top: 80%;
+	font-size: 500%;
+}
+.button{
+	position: relative;
+	top:90%;
+}
+}
+/* iPhone 4 ----------- */
+/* @media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) { */
+/* Styles */
+/* .content__title{
+	position: relative;
+	left: 20%;
+	top: 80%;
+	font-size: 200%;
+}
+.button{
+	position: relative;
+	top:90%;
+}
+} */
