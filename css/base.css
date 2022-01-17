@@ -77,8 +77,8 @@ a:hover{
 
 .button{
 position: relative;
-top:1650%;
-left:175%;
+top: 1050%;
+    left: 185%;
 background-color: #FDA65D;
 width:35%;
 height: 140%;
@@ -261,17 +261,24 @@ and (max-device-width : 480px) {
 
 /* Smartphones (landscape) ----------- */
 @media only screen
-and (min-width : 321px) {
+and (min-width : 321px)
+and (max-width : 767px) {
 /* Styles */
 .content__title{
 	position: relative;
-	    left: 2%;
-	    top: 35%;
-	    font-size: 500%;
+	position: relative;
+	left: 175%;
+	top: 85%;
+	font-size: 900%;
+	width: 400%;
 }
 .button{
-	position: relative;
-	top:1600%;
+			position: relative;
+	    top: 800%;
+	    left: 260%;
+	    height: 100%;
+	    width: 150%;
+	    font-size: 400%;
 }
 }
 
@@ -281,13 +288,16 @@ and (max-width : 320px) {
 /* Styles */
 .content__title{
 	position: relative;
-	left: 20%;
-	top: 80%;
-	font-size: 200%;
+	    left: 220%;
+	    top: 80%;
+	    font-size: 700%;
+	    width: 500%;
 }
 .button{
 	position: relative;
-	top:90%;
+top: 490%;
+font-size: 400%;
+width: 200%
 }
 }
 
@@ -316,13 +326,16 @@ and (orientation : landscape) {
 /* Styles */
 .content__title{
 	position: relative;
-	left: 2%;
-	top: 50%;
-	font-size: 500%;;
+    left: 180%;
+    top: 200%;
+    font-size: 1300%;
 }
 .button{
 	position: relative;
-	top:1300%;
+top: 1200%;
+left: 110%;
+width: 30%;
+height: 130%;
 }
 }
 
@@ -334,13 +347,17 @@ and (orientation : portrait) {
 /* Styles */
 .content__title{
 	position: relative;
-	left: 20%;
-	top: 80%;
-	font-size: 500%;
+	left: 170%;
+  top: 50%;
+  font-size: 2000%;
+
 }
 .button{
 	position: relative;
-	top:90%;
+    top: 410%;
+    left: 350%;
+    font-size: 700%;
+    padding: 20%;
 }
 }
 /* iPhone 4 ----------- */
